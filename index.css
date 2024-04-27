@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#container{
+    background-color: aqua;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.img{
+    height: 150px;
+}
+
+.ul{
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.res-card{
+    width: 180px;
+    margin: 10px;  
+    background: gray;
+    height: 350px;
+}
+
+
+.res-card:hover{
+    border: 1px solid black;
+}
+
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.img{
+    width: 180px;
+}
+
+.h4{
+    text-overflow: clip;  
+}
+
+.shimmer-ui{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width: 180px;
+    margin: 10px;  
+    background: #ff0000;
+}
+
+.search{
+    padding: 10px;
+}
+
+.textbox{
+   
+}
+
+.search-btn{
+    
+}
+
+.filter{
+    margin: 10px;
+}
